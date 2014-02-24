@@ -1,0 +1,58 @@
+#include <Solving.h>
+
+JNIEXPORT void Java_ru_suvitruf_androidndk_AndroidNDK_SetString(JNIEnv * env, jobject obj, jstring str){
+	jboolean isCopy;
+	const char * Str;
+	Str = env->GetStringUTFChars(str, &isCopy);
+	strcpy(MyStr,Str);
+	LOGI("string = \"%s\"", MyStr);
+}
+
+void ChangeStr(char* tmp){
+	strcat(MyStr, tmp);
+}
+
+template <typename T>
+char* TypeToStr(const T &rhs){
+    const int N = 15;
+	char tmp[N];
+    ftoa(rhs, MyStr, strlen(MyStr));
+}
+
+JNIEXPORT void Java_ru_suvitruf_androidndk_AndroidNDK_ChangeString(JNIEnv * env, jobject obj){
+	ChangeStr("1");
+	LOGI("string after change = \"%s\"", MyStr);
+}
+
+JNIEXPORT jstring Java_ru_suvitruf_androidndk_AndroidNDK_GetString(JNIEnv * env, jobject obj){
+	LOGI("returned string = \"%s\"", MyStr);
+	return env->NewStringUTF(MyStr);
+}
+
+JNIEXPORT jstring Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv * env, jobject obj, jdouble a, jdouble b, jdouble c){
+	LOGI("Start GetData");
+
+	double x1 = 0.0, x2 = 0.0;
+	double det = 0.0;
+
+	if(a == 0 && b == 0)
+		ChangeStr("Not a valid equation");
+
+	if(a == 0 && b != 0){
+		double x = -(c/b);
+		env->New
+	}
+	     if ((b*b-4*a*c)>0)
+	    {
+	        x2=(b*b)-(4*a*c);
+	         x1=-b+sqrt(x2);
+	         cout<<"root="<<x1<<endl;
+	         }
+	     if ((b*b-4*a*c)<0)
+	     {
+	    cout<<"not a real root"<<endl;
+	}
+	    system("pause");
+
+	LOGI("End GetData");
+}

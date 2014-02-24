@@ -1,0 +1,697 @@
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+[armeabi-v7a] Clean          : AndroidNDK [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+[armeabi-v7a] Clean          : AndroidNDK [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:12:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:10:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:28:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:50:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi] SharedLibrary  : libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+[armeabi-v7a] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:12:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:10:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:28:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:50:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi-v7a] SharedLibrary  : libAndroidNDK.so
+[armeabi-v7a] Install        : libAndroidNDK.so => libs/armeabi-v7a/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:12:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:10:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:28:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:50:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi] SharedLibrary  : libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:12:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:10:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function 'void MakeTwoAnswers(double, double)':
+jni/Solving.cpp:28:24: error: variable-sized object 'tmp1' may not be initialized
+jni/Solving.cpp:29:24: error: variable-sized object 'tmp2' may not be initialized
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:71:23: error: 'sqrt' was not declared in this scope
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+make.exe: *** [obj/local/armeabi/objs/AndroidNDK/Solving.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function 'void MakeTwoAnswers(double, double)':
+jni/Solving.cpp:28:24: error: variable-sized object 'tmp1' may not be initialized
+jni/Solving.cpp:29:24: error: variable-sized object 'tmp2' may not be initialized
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+make.exe: *** [obj/local/armeabi/objs/AndroidNDK/Solving.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-12 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi] SharedLibrary  : libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+[armeabi-v7a] Clean          : AndroidNDK [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi] SharedLibrary  : libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+[armeabi-v7a] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi-v7a] SharedLibrary  : libAndroidNDK.so
+[armeabi-v7a] Install        : libAndroidNDK.so => libs/armeabi-v7a/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+[armeabi-v7a] Clean          : AndroidNDK [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Clean          : AndroidNDK [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi-v7a] SharedLibrary  : libAndroidNDK.so
+[armeabi-v7a] Install        : libAndroidNDK.so => libs/armeabi-v7a/libAndroidNDK.so
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi] SharedLibrary  : libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libAndroidNDK.so => libs/armeabi-v7a/libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Clean          : AndroidNDK [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+[armeabi] Clean          : AndroidNDK [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi-v7a] SharedLibrary  : libAndroidNDK.so
+[armeabi-v7a] Install        : libAndroidNDK.so => libs/armeabi-v7a/libAndroidNDK.so
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_ru_suvitruf_androidndk_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi] SharedLibrary  : libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi-v7a] SharedLibrary  : libAndroidNDK.so
+[armeabi-v7a] Install        : libAndroidNDK.so => libs/armeabi-v7a/libAndroidNDK.so
+[armeabi] Compile++ thumb: AndroidNDK <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_AndroidNDK_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi] SharedLibrary  : libAndroidNDK.so
+[armeabi] Install        : libAndroidNDK.so => libs/armeabi/libAndroidNDK.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Clean          : SolvingEquation [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+[armeabi] Clean          : SolvingEquation [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi-v7a] SharedLibrary  : libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+[armeabi] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi] SharedLibrary  : libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : SolvingEquation [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+[armeabi-v7a] Clean          : SolvingEquation [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi] SharedLibrary  : libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:53:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:77:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void TypeToStr(const T&, char*) [with T = double]':
+jni/Solving.cpp:21:26:   instantiated from here
+jni/Solving.cpp:10:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat]
+[armeabi-v7a] SharedLibrary  : libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:54:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:78:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi] SharedLibrary  : libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:54:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:78:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi-v7a] SharedLibrary  : libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:54:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:82:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi] SharedLibrary  : libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:54:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:82:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi-v7a] SharedLibrary  : libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : SolvingEquation [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+[armeabi-v7a] Clean          : SolvingEquation [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function 'void MakeTwoAnswers(double, double)':
+jni/Solving.cpp:39:17: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:61:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:85:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi] SharedLibrary  : libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function 'void MakeTwoAnswers(double, double)':
+jni/Solving.cpp:39:17: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:61:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:85:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi-v7a] SharedLibrary  : libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd clean 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : SolvingEquation [armeabi]
+[armeabi] Clean          : stlport_shared [armeabi]
+[armeabi] Clean          : stlport_static [armeabi]
+[armeabi-v7a] Clean          : SolvingEquation [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_shared_hard [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static [armeabi-v7a]
+[armeabi-v7a] Clean          : stlport_static_hard [armeabi-v7a]
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function 'void MakeOneAnswer(double)':
+jni/Solving.cpp:17:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void MakeTwoAnswers(double, double)':
+jni/Solving.cpp:33:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:34:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:55:69: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:79:34: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi] SharedLibrary  : libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function 'void MakeOneAnswer(double)':
+jni/Solving.cpp:17:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void MakeTwoAnswers(double, double)':
+jni/Solving.cpp:33:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:34:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:55:69: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:79:34: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi-v7a] SharedLibrary  : libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function 'void MakeOneAnswer(double)':
+jni/Solving.cpp:17:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void MakeTwoAnswers(double, double)':
+jni/Solving.cpp:33:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:34:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:55:69: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:79:34: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi] SharedLibrary  : libSolvingEquation.so
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Compile++ thumb: SolvingEquation <= Solving.cpp
+In file included from jni/Solving.h:11:0,
+                 from jni/Solving.cpp:1:
+jni/def.h:13:0: warning: "LOG_TAG" redefined [enabled by default]
+jni/def.h:11:0: note: this is the location of the previous definition
+jni/Solving.cpp: In function 'void MakeOneAnswer(double)':
+jni/Solving.cpp:17:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function 'void MakeTwoAnswers(double, double)':
+jni/Solving.cpp:33:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:34:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp: In function '_jstring* Java_test_example_solvingequation_SolvingEquation_Solving(JNIEnv*, jobject, jdouble, jdouble, jdouble)':
+jni/Solving.cpp:55:69: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+jni/Solving.cpp:79:34: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+[armeabi-v7a] SharedLibrary  : libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
+
+**** Build of configuration Default for project SolvingEquation ****
+
+C:\Dev\android\android-ndk-r9c-windows-x86\android-ndk-r9c\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libSolvingEquation.so => libs/armeabi/libSolvingEquation.so
+[armeabi-v7a] Install        : libSolvingEquation.so => libs/armeabi-v7a/libSolvingEquation.so
+
+**** Build Finished ****
